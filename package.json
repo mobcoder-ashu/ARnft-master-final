@@ -17,22 +17,12 @@
     "NFT",
     "markerless"
   ],
-  "author": {
-    "name": "Walter Perdan",
-    "email": "github@kalwaltart.it",
-    "url": "https://www.kalwaltart.com"
-  },
+  "author": "Ashutosh Patel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/webarkit/ARnft"
+    "url": "git+https://github.com/mobcoder-ashu/ar-nft.git"
   },
-  "homepage": "https://github.com/webarkit/ARnft",
-  "contributors": [
-    "Github Contributors (https://github.com/webarkit/ARnft/graphs/contributors)"
-  ],
-  "bugs": {
-    "url": "https://github.com/webarkit/ARnft/issues"
-  },
+  "homepage": "https://github.com/mobcoder-ashu/ar-nft.git",
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/plugin-transform-runtime": "^7.13.10",
@@ -66,7 +56,7 @@
     "dev-ts": "rimraf ./build && tsc && webpack --mode development --progress --watch",
     "docs": "typedoc",
     "build-ts": "rimraf ./build && tsc && webpack --mode production",
-    "watch": "./node_modules/.bin/watch 'npm run build' ./js/"
+    "watch": "watch 'npm run build' ./js/"
   },
   "license": "LGPL-3.0",
   "resolutions": {
@@ -76,5 +66,8 @@
     "@kalwalt/jsartoolkit-nft": "^0.9.1",
     "terser-webpack-plugin": "^5.1.1",
     "uuid": "^8.3.2"
+  },
+  "directories": {
+    "example": "examples"
   }
 }
