@@ -2,4 +2,3 @@ node_modules
 docs/*
 
 # Project exclude paths
-/dist/
